@@ -12,4 +12,4 @@ Just trying out some things :)
 
 $$ E = mc^2 $$
 
-Kasper
+Emoji test: 😘👋
