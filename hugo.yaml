@@ -1,4 +1,50 @@
 baseURL: https://kaspermeerts.github.io/
 languageCode: en-us
-title: Blog
+title: Kasper's Blog
 theme: ["PaperMod"]
+
+menu:
+  main:
+    - name: home
+      title: Home
+      url: /
+      weight: 1
+    - name: post
+      title: Blog
+      url: /post
+      weight: 2
+    - name: about
+      title: About
+      url: /about
+      weight: 3
+
+markup:
+  goldmark:
+    extensions:
+      passthrough:
+        delimiters:
+          block:
+          - - \[
+            - \]
+          - - $$
+            - $$
+          inline:
+          - - \(
+            - \)
+          - - $
+            - 
+        enable: true
+
+params:
+  homeInfoParams:
+    Title: "Kasper Meerts"
+    Content: "Welcome to my blog"
+  socialIcons:
+  - name: X
+    url: https://x.com/drkaspertje
+  - name: LinkedIn
+    url: https://www.linkedin.com/in/kasper-meerts-42b46890/
+  - name: GitHub
+    url: https://github.com/kaspermeerts/
+  - name: googlescholar
+    url: https://scholar.google.com/citations?user=0jd2lS0AAAAJ
