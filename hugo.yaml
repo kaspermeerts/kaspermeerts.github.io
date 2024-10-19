@@ -1,6 +1,6 @@
 baseURL: https://kaspermeerts.github.io/
 languageCode: en-us
-title: Kasper's Blog
+title: About Nothing
 theme: ["PaperMod"]
 
 menu:
@@ -20,6 +20,8 @@ menu:
 
 markup:
   goldmark:
+    renderer:
+      unsafe: true
     extensions:
       passthrough:
         delimiters:
@@ -32,7 +34,7 @@ markup:
           - - \(
             - \)
           - - $
-            - 
+            - $
         enable: true
 
 params:

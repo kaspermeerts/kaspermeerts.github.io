@@ -5,8 +5,7 @@ draft = true
 math = true
 +++
 
-First post
-===
+## First post
 
 Just trying out some things :)
 
@@ -21,5 +20,7 @@ $ a $
 Emoji test: 😘👋
 
 Inline equation test: As we know that $E = mc^2$ and $ E = hf $ we also know that \(f = m\).
+
+This apple costs \\$5 and this one \\$10
 
 Kasper
