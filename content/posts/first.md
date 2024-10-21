@@ -1,5 +1,5 @@
 +++
-title = 'De allereerste keer'
+title = 'First post'
 date = 2024-09-01T21:56:29+02:00
 draft = true
 math = true
@@ -7,20 +7,6 @@ math = true
 
 ## First post
 
-Just trying out some things :)
+What's this all about?
 
-$$ E = mc^2 $$
-
-\[ x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a} \]
-
-$ a $
-
-\( a \)
-
-Emoji test: 😘👋
-
-Inline equation test: As we know that $E = mc^2$ and $ E = hf $ we also know that \(f = m\).
-
-This apple costs \\$5 and this one \\$10
-
-Kasper
+⸻ Kasper
