@@ -210,4 +210,12 @@ In the end I tried using a black piece of thick paper in the laser cutter, and g
 
 Although I initially aimed to run the project on an Arduino, aided by a DS3231 real-time clock, I discovered the Arduino is very limited memory-wise and synchronizing by NTP would be much more practical than relying on an RTC that would eventually drift anyway. Luckily I found out ESP32 devkits are quite cheap, and transferred my project to this platform.
 
-Sadly, the ESP32's API is incredibly underdocumented and useful examples are lacking. Though I planned to program the microcontroller quite robustly and defensively, as is my custom, the internet is so reliable nowadays that by the time I got the prototype working I kind of lost the motivation. The clock has been running uninterruptedly for a few months now with nary a hiccup.
+Sadly, the ESP32's API is incredibly underdocumented and useful examples are lacking. Though I planned to program the microcontroller quite robustly and defensively, as is my custom, the internet is so reliable nowadays that by the time I got the prototype working I kind of lost the motivation. The clock has been running uninterruptedly for a few months now with nary a hiccup. Instead of keeping it white or monochrome, the colors slowly cycle through all kinds of patterns.
+
+I ended up just connecting the devkit to the LED array and leaving it at that. In a future project, I'll definitely plan on making my own PCB.
+
+## End result
+
+It looks better in real life than on a picture, because the contrast of the active letters to the background is so high the colors wash out. All in all I'm quite happy with the result.
+
+{{<figure src="endresult.jpg" caption="What it ended up looking like" align="center" >}}

@@ -42,8 +42,8 @@ params:
     Title: "Kasper Meerts"
     Content: "Welcome to my blog"
   socialIcons:
-  - name: X
-    url: https://x.com/drkaspertje
+#  - name: X
+#    url: https://x.com/drkaspertje
   - name: LinkedIn
     url: https://www.linkedin.com/in/kasper-meerts-42b46890/
   - name: GitHub
