@@ -1,3 +1,5 @@
 /public/
 /resources/_gen/
 .hugo_build.lock
+# ignore my private drafts – not pushed to GitHub
+/content/posts/drafts/

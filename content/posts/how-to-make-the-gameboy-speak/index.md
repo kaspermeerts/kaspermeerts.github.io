@@ -1,7 +1,6 @@
 +++
 title = 'How to make the Game Boy speak'
 date = 2024-09-04T21:06:47+02:00
-draft = true
 +++
 
 A while ago, as I was reading about chess engines, I suddenly started wondering how a chess engine might perform on my favorite retrocomputing platform: the Game Boy. I quickly found a ROM for a game called "The Chessmaster", and booted it up in an emulator. On the title screen I was greeted not only by the face of an old man present on all games of the series, but to my surprise I also heard a voice say the line "Welcome to Chessmaster".

@@ -9,9 +9,9 @@ menu:
       title: Home
       url: /
       weight: 1
-    - name: post
+    - name: posts
       title: Blog
-      url: /post
+      url: /posts
       weight: 2
     - name: about
       title: About

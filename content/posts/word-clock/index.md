@@ -1,14 +1,13 @@
 +++
 title = 'Word Clock'
 date = 2024-11-13T16:15:19+01:00
-draft = true
 +++
 
 When I first saw a clock spelling out the time in words somewhere online, I thought it looked like a neat project, not too complicated but still giving a very aesthetically pleasing result. After I gained some experience with a laser cutter, I finally felt up to the task.
 
 ## The letters
 
-For the language I quickly decided on my native Dutch, English is already way too overused and borderline fethisized in our society anyway. And it saves me from the temptation of stealing the frontplate from somebody else's project.
+For the language I quickly decided on my native Dutch, English is already way too overused and borderline fetishized in our society anyway. And it saves me from the temptation of stealing the frontplate from somebody else's project.
 
 After that I had to decide the size of the grid. I wanted it to be square, and it was a hard requirement for me that the clock be actually functional, with which I mean that it had to give the exact time up to the minute. Rounding the time to the nearest five minutes, even with some workaround to otherwise signal the remainder, was unacceptable. Furthermore I wanted the words to be contiguous, i.e. I didn't want to reuse any common prefix or suffix, broken over two lines. Finally, the way it tells the time had to feel natural. I didn't really have a nice algorithmic plan to fill in the letters, so I just started fitting them as best as I could, overlapping parts of words where I could (e.g. TWEE with EEN, or EIGHT with EIGHTEEN). I ended up reusing part of the minutes indications for the hours, though I did swap them around a little bit to avoid a distracting repetion being too obvious.
 
@@ -39,7 +38,7 @@ While I think you can do it in English, I just barely did not get it to fit in a
         color: yellow;
     }
 </style>
-<div class="grid" id="grid"></div>
+<div class="grid" id="grid"></div><br/>
 
 <script>
     const ROWS = 13;
@@ -200,7 +199,7 @@ The solderwork was quite relaxing, apart from the short-circuits that occasional
 
 Next up were the baffles to block the light from bleeding over to neighboring letters. As I still had access to a lasercutter, I wrote a small Python script to simultaneously plot the baffles as well as position the letters inside of the little squares. This was meant to check the alignment, but I immediately discovered a serious problem with the Q. Of the capital Latin letters, no letter has an ascender, but Q as the lone exception does have a descender, meaning the little bottom hook goes below the baseline. This meant I had to choose between either giving every single other letter a small margin on all sides (to keep them centered on the LED), or ditch the Q. In the end I chose the latter option and replaced it with an H, because I prefered to keep the letters closely spaced yet easily readible.
 
-For the frame of the entire contraption, I settled on an Ikea SANNAHED frame. As I was anticipation the square to measure 13/60 meters, or about 22cm, it turned out to be a perfect fit. With a piece of tracing paper as the diffuser, it was time to think about the frontplate with the actual words on it.
+For the frame of the entire contraption, I settled on an Ikea SANNAHED frame. As I was anticipating the square to measure 13/60 meters, or about 22cm, it turned out to be a perfect fit. With a piece of tracing paper as the diffuser, it was time to think about the frontplate with the actual words on it.
 
 At first I cut the letters out of a thin plate of wood, but I really didn't like the aesthetic of it. Even the thinnest wood gives a feeling of depth to the letters, making them particularly hard to read at an angle. Moreover, there is no nice way to keep the parts of the letter not joined to the outside, e.g. the semicircles in the B's and D's or the circle at the center of the O. One solution is to use a stencil font, in which all letters are simply connected, but this again offended my aesthetic sensibilities.
 
